@@ -92,19 +92,24 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="pt-40 pb-20 px-6 max-w-6xl mx-auto min-h-screen flex flex-col justify-center">
-        <h1 class="text-5xl md:text-7xl font-medium text-ink mb-6 tracking-tight">Tristen Chen</h1>
-        <h2 class="text-2xl md:text-4xl font-medium text-slate-600 mb-8 tracking-tight max-w-4xl leading-tight">
-            MechE @ UofT<br>
-            Let's build something new
-        </h2>
-        <div class="flex flex-wrap gap-4 font-mono text-sm">
-            <a href="#projects" class="bg-accent hover:bg-accent-dark text-white px-6 py-3 border border-accent transition-all">
-                EXPLORE PROJECTS
-            </a>
-            <a href="assets/9_21%20Resumeworkshop.pdf" target="_blank" rel="noopener noreferrer" class="bg-canvas hover:bg-slate-100 text-ink border border-slate-300 px-6 py-3 transition-all">
-                VIEW RESUME
-            </a>
+    <section class="pt-40 pb-20 px-6 max-w-7xl mx-auto min-h-screen grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+            <h1 class="text-5xl md:text-7xl font-medium text-ink mb-6 tracking-tight">Tristen Chen</h1>
+            <h2 class="text-2xl md:text-4xl font-medium text-slate-600 mb-8 tracking-tight max-w-4xl leading-tight">
+                MechE @ UofT<br>
+                Let's build something new
+            </h2>
+            <div class="flex flex-wrap gap-4 font-mono text-sm">
+                <a href="#projects" class="bg-accent hover:bg-accent-dark text-white px-6 py-3 border border-accent transition-all">
+                    EXPLORE PROJECTS
+                </a>
+                <a href="assets/10_10%20General%20Resume.pdf" target="_blank" rel="noopener noreferrer" class="bg-canvas hover:bg-slate-100 text-ink border border-slate-300 px-6 py-3 transition-all">
+                    VIEW RESUME
+                </a>
+            </div>
+        </div>
+        <div class="w-full max-w-2xl md:justify-self-end border border-slate-300 p-2 shadow-[6px_6px_0px_#d8c7bf]">
+            <img src="assets/Front_Page.jpg" alt="Tristen working on a robotics project with teammates" class="w-full aspect-[4/3] object-cover">
         </div>
     </section>
 
@@ -123,11 +128,11 @@
                 <!-- Stroke Bot -->
                 <div onclick="openProject('modal-strokebot')" class="bg-white p-6 cad-border flex flex-col h-full cursor-pointer group">
                     <div class="h-96 bg-slate-100 border border-slate-200 w-full relative flex items-center justify-center mb-6 overflow-hidden">
-                        <img src="assets/stroke-bot-rerun.png" alt="Stroke Bot Rerun visualization" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" style="object-position: 50% 50%;">
+                        <img src="assets/stroke-bot-rerun.png" alt="Stroke Bot Rerun visualization" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" style="object-position: 50% 65%;">
                     </div>
-                    <h4 class="text-xl font-bold text-ink mb-2 group-hover:text-accent transition-colors">Stroke Bot</h4>
-                    <p class="text-xs font-mono text-slate-500 mb-2">Sept 2026 - Present | Project Lead</p>
-                    <div class="flex flex-wrap gap-2 font-mono text-xs">
+                    <h4 class="text-xl font-bold text-ink mb-0 group-hover:text-accent transition-colors">Stroke Bot</h4>
+                    <p class="text-xs font-mono text-slate-500 mb-4">Sept 2026 - Present | Project Lead | 1st Place, Simulation Track</p>
+                    <div class="mt-auto flex flex-wrap gap-2 font-mono text-xs">
                         <span class="border border-slate-300 px-2 py-1 text-slate-600 bg-slate-50">Python</span>
                         <span class="border border-slate-300 px-2 py-1 text-slate-600 bg-slate-50">NumPy/SciPy</span>
                         <span class="border border-slate-300 px-2 py-1 text-slate-600 bg-slate-50">OpenCV</span>
@@ -138,12 +143,12 @@
 
                 <!-- Trace Project -->
                 <div onclick="openProject('modal-trace')" class="bg-white p-6 cad-border flex flex-col h-full cursor-pointer group">
-                    <div class="h-80 bg-slate-100 border border-slate-200 w-full relative flex items-center justify-center mb-6 overflow-hidden">
-                        <img src="assets/Trace_1.JPG" alt="Trace project" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" style="object-position: 50% 15%;">
+                    <div class="h-96 bg-slate-100 border border-slate-200 w-full relative flex items-center justify-center mb-6 overflow-hidden">
+                        <img src="assets/Trace_Cover.jpeg" alt="Trace project cover" class="w-full h-64 -translate-y-6 object-contain group-hover:scale-105 transition-transform duration-500">
                     </div>
-                    <h4 class="text-xl font-bold text-ink mb-2 group-hover:text-accent transition-colors">Trace Project: Soft Robotics for Telepresence</h4>
-                    <p class="text-xs font-mono text-slate-500 mb-6 flex-grow">April 2026 - Sept 2026 | Project Founder</p>
-                    <div class="flex flex-wrap gap-2 mt-auto font-mono text-xs">
+                    <h4 class="text-xl font-bold text-ink mb-0 group-hover:text-accent transition-colors">Trace: Soft Robotics Telepresence System</h4>
+                    <p class="text-xs font-mono text-slate-500 mb-4">April 2026 - Present | <span class="font-semibold text-ink">Project Founder</span></p>
+                    <div class="mt-auto flex flex-wrap gap-2 font-mono text-xs">
                         <span class="border border-slate-300 px-2 py-1 text-slate-600 bg-slate-50">SolidWorks CAD &amp; FEA</span>
                         <span class="border border-slate-300 px-2 py-1 text-slate-600 bg-slate-50">Gearbox Design</span>
                         <span class="border border-slate-300 px-2 py-1 text-slate-600 bg-slate-50">3D Printing</span>
@@ -192,7 +197,7 @@
                 
                 <!-- VEX Robotics -->
                 <div onclick="openProject('modal-vex')" class="bg-white p-6 cad-border flex flex-col h-full md:col-span-2 cursor-pointer group">
-                    <div class="h-80 bg-slate-100 border border-slate-200 w-full relative flex items-center justify-center mb-6 overflow-hidden">
+                    <div class="h-96 bg-slate-100 border border-slate-200 w-full relative flex items-center justify-center mb-6 overflow-hidden">
                         <img src="assets/Vex_1.png" alt="VEX Robotics competition robot" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
                     </div>
                     <h4 class="text-xl font-bold text-ink mb-2">VEX Robotics (96969Y)</h4>
@@ -221,45 +226,46 @@
                 <!-- UTAT -->
                 <div class="relative">
                     <span class="absolute -left-[31px] top-1 h-4 w-4 rounded-full bg-white border-2 border-accent"></span>
-                    <h4 class="text-xl font-bold text-ink">Optomechanical Engineer <span class="text-accent font-normal">@ UTAT Space System</span></h4>
+                    <h4 class="text-xl font-bold text-ink">Senior Optomechanical Engineer, Payload Subteam <span class="text-accent font-normal">@ UTAT Space System, UofT </span></h4>
                     <p class="text-xs font-mono text-slate-500 mb-4">Jan 2026 - Present</p>
                     <ul class="list-disc list-outside ml-4 space-y-2 text-slate-700 text-sm">
-                        <li>Engineered a CubeSat venting system under strict spatial constraints with a safety factor of 3 against maximum allowable pressure.</li>
-                        <li>Redesigned an internal leaf spring damping mechanism to withstand launch vibrations and optimize stiffness and mass.</li>
-                        <li>Managed a multi-user CAD environment (Sibe PDM), collaborating with a 20-person team.</li>
+                        <li>Engineered a venting system for an optical lens housing with a 3× safety factor against internal pressure, preventing lens fracture from launch pressure differentials.</li>
+                        <li>Researched NASA and NANOCUB standards for hole-to-volume ratios, evaluated manufacturing methods, and documented the design process in technical reports.</li>
+                        <li>Managed SolidWorks version control in Sibe PDM for a 20-person team.</li>
                     </ul>
                 </div>
 
                 <!-- EWB -->
                 <div class="relative">
                     <span class="absolute -left-[31px] top-1 h-4 w-4 rounded-full bg-white border-2 border-slate-400"></span>
-                    <h4 class="text-xl font-bold text-ink">Team Lead, Smart Watering <span class="text-accent font-normal">@ EWB</span></h4>
+                    <h4 class="text-xl font-bold text-ink">Team Lead, Smart Watering System <span class="text-accent font-normal">@ Engineering Without Borders UofT Branch</span></h4>
                     <p class="text-xs font-mono text-slate-500 mb-4">Oct 2025 - April 2026</p>
                     <ul class="list-disc list-outside ml-4 space-y-2 text-slate-700 text-sm">
-                        <li>Designed and integrated an autonomous watering system incorporating ESP32, pumps, tubing, and housing with C/C++.</li>
-                        <li>Coordinated communication between technical branches, established timelines, and managed engineering dependencies.</li>
+                        <li>Designed and integrated an autonomous watering system using an ESP32, pumps, tubing, and custom housing programmed in C/C++.</li>
+                        <li>Coordinated stakeholder communication through Slack, translated community-garden needs into engineering requirements, and produced biweekly timeline and dependency reports for the Technical Branch.</li>
                     </ul>
                 </div>
 
                 <!-- Isuzu -->
                 <div class="relative">
                     <span class="absolute -left-[31px] top-1 h-4 w-4 rounded-full bg-white border-2 border-slate-400"></span>
-                    <h4 class="text-xl font-bold text-ink">Automotive Manufacturing Intern <span class="text-accent font-normal">@ Taiwan Isuzu Motors</span></h4>
+                    <h4 class="text-xl font-bold text-ink">Automotive Manufacturing Intern <span class="text-accent font-normal">@ Taiwan Isuzu Motors Co., Ltd.</span></h4>
                     <p class="text-xs font-mono text-slate-500 mb-4">May 2025 - Aug 2025</p>
                     <ul class="list-disc list-outside ml-4 space-y-2 text-slate-700 text-sm">
-                        <li>Participated in SKD manufacturing workflows, interpreting complex assembly drawings and conducting QC inspections.</li>
-                        <li>Analyzed production logistics, inventory storage, and assembly scheduling to understand the full manufacturing lifecycle.</li>
+                        <li>Worked on a 20+ person semi-knocked-down (SKD) production team, facilitating final assembly of more than 10 commercial trucks per day.</li>
+                        <li>Conducted quality inspections on the production line and interpreted assembly drawings to prevent defects and ensure compliance with Isuzu manufacturing standards.</li>
                     </ul>
                 </div>
 
                 <!-- Chem-E-Cube -->
                 <div class="relative">
                     <span class="absolute -left-[31px] top-1 h-4 w-4 rounded-full bg-white border-2 border-slate-400"></span>
-                    <h4 class="text-xl font-bold text-ink">Engineering Fabrication Team Member <span class="text-accent font-normal">@ UofT Chem-E-Cube Club, University of Toronto</span></h4>
+                    <h4 class="text-xl font-bold text-ink">Fabrication Team Member <span class="text-accent font-normal">@ Chem-E-Cube, UofT</span></h4>
                     <p class="text-xs font-mono text-slate-500 mb-4">Dec 2024 - Oct 2025</p>
                     <ul class="list-disc list-outside ml-4 space-y-2 text-slate-700 text-sm">
-                        <li>Designed airtight manifolds for CO2 and temperature sensors through AutoCAD Inventor, allowing Peltier plates to maintain optimal carbon capture temperature.</li>
-                        <li>Developed fastening methods for three 2.5&quot; NPT pipe assemblies and a CPU fan to fit Peltier plates within a 1 ft<sup>3</sup> aluminum frame.</li>
+                        <li>Took ownership of the Direct Air Capture Cube cooling architecture, optimizing CO₂ absorption to place in the top 15 of 60+ teams and qualify for the international finals in Boston.</li>
+                        <li>Developed a Peltier-plate current-control strategy and custom 3D-printed air channels, achieving 160% cooling efficiency.</li>
+                        <li>Designed airtight CO₂ and temperature-sensor housings in Inventor, using additive-manufacturing-friendly geometry and locator pins for epoxy joining.</li>
                     </ul>
                 </div>
 
@@ -279,12 +285,12 @@
                 <div class="bg-white p-6 cad-border">
                     <h4 class="font-bold text-ink mb-4 border-b border-slate-200 pb-2">1. Mechanical Design &amp; Manufacturing</h4>
                     <ul class="space-y-2 font-mono text-sm text-slate-600 text-left">
-                        <li>> SolidWorks (CSWA) Parts, Assemblies, &amp; Drawings</li>
+                        <li>&gt; <span class="font-bold text-accent">SolidWorks (CSWA)</span> Parts, Assemblies, &amp; Drawings</li>
                         <li>> Fusion 360 / Inventor</li>
                         <li>> GD&amp;T &amp; Hand Drafting</li>
-                        <li>> Gearbox Design &amp; Component Sourcing</li>
-                        <li>> Machining (Turning/Milling)</li>
-                        <li>> FDM 3D Printing</li>
+                        <li>&gt; <span class="font-bold text-accent">Gearbox Design</span> &amp; Component Sourcing</li>
+                        <li>&gt; <span class="font-bold text-accent">Machining</span> (Turning/Milling)</li>
+                        <li>&gt; <span class="font-bold text-accent">Rapid Prototyping</span> (FDM 3D Printing)</li>
                         <li>> BOM Generation</li>
                     </ul>
                 </div>
@@ -293,7 +299,7 @@
                 <div class="bg-white p-6 cad-border">
                     <h4 class="font-bold text-ink mb-4 border-b border-slate-200 pb-2">2. Engineering Analysis &amp; Mathematics</h4>
                     <ul class="space-y-2 font-mono text-sm text-slate-600 text-left">
-                        <li>> Finite Element Analysis (FEA)</li>
+                        <li>&gt; <span class="font-bold text-accent">Finite Element Analysis (FEA)</span></li>
                         <li>> Heat Transfer &amp; Fluid Mechanics</li>
                         <li>> Numerical Methods</li>
                         <li>> Root Finding &amp; Least-Squares Regression</li>
@@ -304,11 +310,11 @@
                 <div class="bg-white p-6 cad-border">
                     <h4 class="font-bold text-ink mb-4 border-b border-slate-200 pb-2">3. Robotics &amp; Control Systems</h4>
                     <ul class="space-y-2 font-mono text-sm text-slate-600 text-left">
-                        <li>> Kinematics &amp; Inverse Kinematics (IK) Solving</li>
+                        <li>&gt; <span class="font-bold text-accent">Robotics Kinematics &amp; Inverse Kinematics (IK)</span></li>
                         <li>> PID Control &amp; Odometry</li>
-                        <li>> Stepper &amp; Servo Motor Control</li>
-                        <li>> OpenCV / MediaPipe</li>
-                        <li>> ReRun</li>
+                        <li>&gt; <span class="font-bold text-accent">Stepper &amp; Servo Motor Control</span></li>
+                        <li>&gt; <span class="font-bold text-accent">Computer Vision:</span> OpenCV / MediaPipe</li>
+                        <li>> ReRun 3D Visualization</li>
                     </ul>
                 </div>
 
@@ -318,7 +324,7 @@
                     <ul class="space-y-2 font-mono text-sm text-slate-600 text-left">
                         <li>> Python / C / C++ / MATLAB</li>
                         <li>> NumPy / SciPy</li>
-                        <li>> ESP32 / Circuit Prototyping</li>
+                        <li>&gt; <span class="font-bold text-accent">ESP32 / Circuit Prototyping</span></li>
                         <li>> Circuit Design, Troubleshooting &amp; Soldering</li>
                         <li>> Framer / CapCut</li>
                     </ul>
@@ -342,8 +348,7 @@
                 <a href="https://linkedin.com/in/tristenmech2t8" target="_blank" class="bg-canvas hover:bg-slate-100 text-ink border border-slate-300 px-8 py-4 transition-all">
                     LINKEDIN PROFILE
                 </a>
-                <!-- Update href to your actual PDF filename -->
-                <a href="assets/9_21%20Resumeworkshop.pdf" target="_blank" rel="noopener noreferrer" class="bg-canvas hover:bg-slate-100 text-ink border border-slate-300 px-8 py-4 transition-all">
+                <a href="assets/10_10%20General%20Resume.pdf" target="_blank" rel="noopener noreferrer" class="bg-canvas hover:bg-slate-100 text-ink border border-slate-300 px-8 py-4 transition-all">
                     RESUME
                 </a>
             </div>
@@ -358,8 +363,8 @@
                 BACK TO PROJECTS
             </button>
 
-            <h2 id="trace-title" class="text-4xl md:text-5xl font-bold text-ink mb-4">Trace Project</h2>
-            <p class="text-sm font-mono text-slate-500 mb-8 border-b border-slate-300 pb-8">April 2026 - Sept 2026 | Project Founder</p>
+            <h2 id="trace-title" class="text-4xl md:text-5xl font-bold text-ink mb-4">Trace: Soft Robotics Telepresence System</h2>
+            <p class="text-sm font-mono text-slate-500 mb-8 border-b border-slate-300 pb-8">April 2026 - Present | Project Founder</p>
 
             <div class="mb-12">
                 <h3 class="text-xl font-bold text-ink mb-4 font-mono">&gt; Project Overview</h3>
@@ -379,24 +384,30 @@
                     <div id="trace-gallery" class="flex overflow-x-auto space-x-6 pb-6 snap-x border-b border-slate-200" onscroll="stopGalleryVideos(this)" onmouseenter="stopGalleryAutoScroll()" onmouseleave="startGalleryAutoScroll('trace-gallery')">
                     <div class="snap-center shrink-0 w-80 md:w-[28rem] flex flex-col">
                         <div class="h-96 bg-canvas border border-slate-300 flex items-center justify-center mb-3">
-                            <img src="assets/Trace_1.JPG" alt="Trace project image 1" class="w-full h-full object-contain" style="object-position: 50% 50%;">
+                            <video controls preload="metadata" playsinline class="w-full h-full object-contain" aria-label="Trace demonstration video 1">
+                                <source src="assets/Trace_1%20Demonstration.mp4" type="video/mp4">
+                                Your browser does not support the video element.
+                            </video>
                         </div>
-                        <p class="text-sm text-slate-600 font-mono">Fig 1. Fully assembled Trace skeleton 1 (V4), <br> 2-level stepper mounts</p>
+                        <p class="text-sm text-slate-600 font-mono">Fig 1. First showcase during Meraki</p>
                     </div>
                     <div class="snap-center shrink-0 w-80 md:w-[28rem] flex flex-col">
                         <div class="h-96 bg-canvas border border-slate-300 flex items-center justify-center mb-3">
-                            <video controls preload="metadata" playsinline class="w-full h-full object-contain" aria-label="Trace project video">
+                            <video controls preload="metadata" playsinline class="w-full h-full object-contain" aria-label="Trace demonstration video 2">
+                                <source src="assets/Trace_2%20Demonstratoon.mp4" type="video/mp4">
+                                Your browser does not support the video element.
+                            </video>
+                        </div>
+                        <p class="text-sm text-slate-600 font-mono">Fig 2. Trace showcase of UDP and multithreading to remove latency (<200ms)</p>
+                    </div>
+                    <div class="snap-center shrink-0 w-80 md:w-[28rem] flex flex-col">
+                        <div class="h-96 bg-canvas border border-slate-300 flex items-center justify-center mb-3">
+                            <video controls preload="metadata" playsinline class="w-full h-full object-contain" aria-label="Trace 2 video">
                                 <source src="assets/Trace_2.mp4" type="video/mp4">
                                 Your browser does not support the video element.
                             </video>
                         </div>
-                        <p class="text-sm text-slate-600 font-mono">Fig 2. Trace project video</p>
-                    </div>
-                    <div class="snap-center shrink-0 w-80 md:w-[28rem] flex flex-col">
-                        <div class="h-96 bg-canvas border border-slate-300 flex items-center justify-center mb-3">
-                            <img src="assets/Trace_3.png" alt="Trace project image 3" class="w-full h-full object-contain">
-                        </div>
-                        <p class="text-sm text-slate-600 font-mono">Fig 3. SolidWorks CAD assembly</p>
+                        <p class="text-sm text-slate-600 font-mono">Fig 3. Showcase with 500ms+ latency</p>
                     </div>
                     <div class="snap-center shrink-0 w-80 md:w-[28rem] flex flex-col">
                         <div class="h-96 bg-canvas border border-slate-300 flex items-center justify-center mb-3">
@@ -444,13 +455,12 @@
             <div class="mb-12">
                 <h3 class="text-xl font-bold text-ink mb-4 font-mono">&gt; Engineering Details</h3>
                 <ul class="list-disc list-outside ml-5 space-y-4 text-slate-700 text-lg">
-                    <li>Founded and led the full-cycle prototyping of a soft-robotic telepresence system, coordinating mechanical, electronic, and software development across a 3-person multidisciplinary team.</li>
-                    <li>Designed in SolidWorks and prototyped a compact 6:1 planetary gearbox for NEMA 17 stepper motors. Selected bearings, optimized gear profiles, and specified tolerances for the 3D-printed assemblies. <a href="https://grabcad.com/tristen.chen-1" target="_blank" rel="noopener noreferrer" class="text-accent hover:text-accent-dark">GrabCAD Files</a></li>
-                    <li>Identified Lateral-Torsional Buckling (LTB) in a 3D-printed leaf spring through physical testing, validated a compliant joint redesign utilizing SolidWorks FEA and hand-calculated stress and fatigue analysis.</li>
-                    <li>Optimized the spatial footprint with a double-layer motor stack and Bowden cable routing, allowing tendons to pass through the shoulder joint's center of rotation to minimize path-length variation and reduce horizontal footprint by 25%.</li>
-                    <li>Implemented a real-time hand-tracking pipeline using Python and MediaPipe to capture user gestures and translate them into robotic motion, achieving a latency of under 500ms.</li>
-                    <li>Developed a product landing page (Framer) and promotional video (CapCut) to pitch the system's value proposition and document rapid engineering milestones.</li>
-                    <li>Architected the embedded hardware stack, integrating ESP32 and E4 V1.0 controllers for multi-axis actuation. Simplified from the previous setup of TMC2209, CNC Shield V3, and ESP32. </li>
+                    <li>Identified a gap in remote physical interaction and founded an independent project to build a tendon-driven telepresence plush; showcased the prototype at a public session.</li>
+                    <li>Led a 3-person multidisciplinary team through four rapid hardware iterations, coordinating workflows across mechanical, electrical, and software subteams.</li>
+                    <li>Designed and 3D-printed a compact 6:1 planetary gearbox for NEMA 17 stepper motors, achieving 1.8 Nm holding torque. The Fusion 360 Gear Generator and SolidWorks design has received 150+ GrabCAD downloads. <a href="https://grabcad.com/tristen.chen-1" target="_blank" rel="noopener noreferrer" class="text-accent hover:text-accent-dark">GrabCAD Files</a></li>
+                    <li>Diagnosed lateral-torsional buckling in a 3D-printed leaf spring and redesigned the compliant joint with an anisotropic FR4 fiberglass spine; validated the redesign against stall torque and fatigue using SolidWorks FEA and hand calculations.</li>
+                    <li>Reduced the system's horizontal footprint by 30% and minimized tendon path-length variation by optimizing the layout with a double-layer motor stack and Bowden cables routed through the shoulder joint's center of rotation.</li>
+                    <li>Implemented real-time hand tracking with Python and MediaPipe, then used UDP and multithreading to reduce motion-control latency below 200 ms.</li>
 
                 </ul>
             </div>
@@ -557,12 +567,12 @@
                 BACK TO PROJECTS
             </button>
 
-            <h2 id="mie243-title" class="text-4xl md:text-5xl font-bold text-ink mb-4">MIE243 5-DOF Cinematography Arm</h2>
+            <h2 id="mie243-title" class="text-4xl md:text-5xl font-bold text-ink mb-4">MIE243: 5-DOF Cinematography Arm</h2>
             <p class="text-sm font-mono text-slate-500 mb-8 border-b border-slate-300 pb-8">Sept 2025 - Dec 2025 | Project Co-Lead</p>
 
             <div class="mb-12">
                 <h3 class="text-xl font-bold text-ink mb-4 font-mono">&gt; Project Overview</h3>
-                <p class="text-slate-700 leading-relaxed text-lg text-justify">This is a MIE243 project where our team (San, Willis, Alan, and I) defined the project requirements and went through the entire design cycle to create a final 5-DOF arm for cinematography. The process included researching existing industry and cinematography arms, defining FOC, hand-drafting 12 conceptual designs, and making a 200+ part assembly in SolidWorks. This was a very fun experience (especially the nights we spent at SF until 4 a.m.) as it was my "first" time working on a project with strict engineering procedure and documentation.
+                <p class="text-slate-700 leading-relaxed text-lg text-justify">Worked through the full design cycle with a four-person team to develop a 5-DOF cinematography arm. We researched cinematography and industrial robotic systems, defined requirements and load cases, applied relevant ISO standards, and produced a detailed SolidWorks assembly and manufacturing documentation.
                </p>
             </div>
 
@@ -620,9 +630,8 @@
             <div class="mb-12">
                 <h3 class="text-xl font-bold text-ink mb-4 font-mono">&gt; Engineering Details</h3>
                 <ul class="list-disc list-outside ml-5 space-y-4 text-slate-700 text-lg">
-                    <li>Defined kinematic requirements, physical load cases, and safety features for a 5-DOF arm by applying relevant ISO standards.</li>
-                    <li>Led full-cycle mechanical design of a motorized interface between a tripod and robotic arm. Delivered a 20+ part CAD assembly, GD&T manufacturing drawings, and a detailed BOM.</li>
-                    <li>Performed joint torque and structural load calculation to size actuators and gear ratios.</li>
+                    <li>Defined kinematic requirements, physical load cases, and safety features for a 5-DOF arm by researching cinematography and industrial robotic systems and applying relevant ISO standards.</li>
+                    <li>Executed the full-cycle mechanical design of a motorized mounting interface, delivering a 20+ part CAD assembly and complete GD&amp;T manufacturing drawings for production.</li>
                 </ul>
             </div>
 
@@ -644,16 +653,16 @@
                 BACK TO PROJECTS
             </button>
 
-            <h2 id="strokebot-title" class="text-4xl md:text-5xl font-bold text-ink mb-4">Stroke Bot </h2>
-            <p class="text-sm font-mono text-slate-500 mb-8 border-b border-slate-300 pb-8">Sept 2026 - Present | Project Lead</p>
+            <h2 id="strokebot-title" class="text-4xl md:text-5xl font-bold text-ink mb-4">Stroke Bot: Battle of the School Hackathon</h2>
+            <p class="text-sm font-mono text-slate-500 mb-8 border-b border-slate-300 pb-8">Sept 2026 - Present | Project Lead | 1st Place, Simulation Track</p>
 
             <div class="mb-12">
                 <h3 class="text-xl font-bold text-ink mb-4 font-mono">&gt; Project Overview</h3>
                 <p class="text-slate-700 leading-relaxed text-lg text-justify mb-6">
-                    Originating from a school hackathon, the challenge was to find useful applications for Bracket Bot, a robot with two cameras and two 7-DOF arms. Instead of using it to lift boxes or handle other pick-and-place tasks, I wanted it to do something more interesting: I wanted it to draw. So we gave it a pen, and this became Stroke Bot.
+                    At the 24-hour Battle of the School Hackathon, our two-person team set out to give Bracket Bot a more creative task than picking up objects: drawing with a pen. That idea became Stroke Bot.
                 </p>
                 <p class="text-slate-700 leading-relaxed text-lg text-justify">
-                    Stroke Bot is a 7-DOF robotic arm simulation designed for prompt-to-vision-to-vector drawing. It captured 1st place in the Simulation Category out of 15 competing teams. Right now, it focuses on precision trajectory planning, kinematic control, and vectorization of images from drawings. It will soon evolve into a specialized drawing robot with real-time image recognition, prompting, and many more features. Check for updates!
+                    We co-led a vision-to-drawing simulation for Bracket Bot, translating images into robot motion and winning 1st place in the Simulation Track among 15 teams. The project is expanding into a physical, high-speed CNC drawing machine.
                 </p>
             </div>
 
@@ -713,9 +722,10 @@
             <div class="mb-12">
                 <h3 class="text-xl font-bold text-ink mb-4 font-mono">&gt; Engineering Details</h3>
                 <ul class="list-disc list-outside ml-5 space-y-4 text-slate-700 text-lg">
-                    <li>Architected a 7-DOF robotic arm simulation for prompt-to-vision-to-vector drawing, capturing 1st place in the Simulation Category out of 15 competing teams.</li>
-                    <li>Engineered inverse kinematics and trajectory planning algorithms utilizing SciPy and NumPy to translate OpenCV-extracted image contours into individual joint poses.</li>
-                    <li>Integrated Rerun to visualize complex spatial movements, resolving kinematic redundancy to Bracket's 7-DOF nature.</li>
+                    <li>Co-led a two-person team building a vision-to-drawing simulation for Bracket Bot, earning 1st place among 15 teams in a 24-hour hackathon.</li>
+                    <li>Converted OpenCV image contours into joint poses with a Python inverse-kinematics solver using SciPy and NumPy; added warm-starting to address kinematic redundancies.</li>
+                    <li>Validated robot kinematics in Rerun, established target operating speeds, and sourced high-performance servos for the physical build.</li>
+                    <li>Expanded the simulation into an ongoing CNC drawing-machine build and developed its bill of materials.</li>
                 </ul>
             </div>
 
@@ -749,7 +759,7 @@
                 BACK TO PROJECTS
             </button>
 
-            <h2 id="vex-title" class="text-4xl md:text-5xl font-bold text-ink mb-4">High School VEX Robotics (96969Y)</h2>
+            <h2 id="vex-title" class="text-4xl md:text-5xl font-bold text-ink mb-4">Team Captain: VEX Robotics (96969Y)</h2>
             <p class="text-sm font-mono text-slate-500 mb-8 border-b border-slate-300 pb-8">Sept 2022 - Aug 2024 | Team Captain</p>
 
             <div class="mb-12">
@@ -770,51 +780,45 @@
                     <div id="vex-gallery" class="flex overflow-x-auto space-x-6 pb-6 snap-x border-b border-slate-200" onscroll="stopGalleryVideos(this)" onmouseenter="stopGalleryAutoScroll()" onmouseleave="startGalleryAutoScroll('vex-gallery')">
                         <div class="snap-center shrink-0 w-80 md:w-[28rem] flex flex-col">
                             <div class="h-96 bg-canvas border border-slate-300 flex items-center justify-center mb-3">
-                                <img src="assets/Vex_1.png" alt="VEX Robotics image 1" class="w-full h-full object-contain">
-                            </div>
-                            <p class="text-sm text-slate-600 font-mono">Fig 1. VEX competition robot.</p>
-                        </div>
-                        <div class="snap-center shrink-0 w-80 md:w-[28rem] flex flex-col">
-                            <div class="h-96 bg-canvas border border-slate-300 flex items-center justify-center mb-3">
-                                <video controls preload="metadata" playsinline class="w-full h-full object-contain" aria-label="VEX Robotics video 2">
+                                <video controls preload="metadata" playsinline class="w-full h-full object-contain" aria-label="VEX Robotics video 1">
                                     <source src="assets/Vex_2.mp4" type="video/mp4">
                                     Your browser does not support the video element.
                                 </video>
                             </div>
-                            <p class="text-sm text-slate-600 font-mono">Fig 2. VEX Robotics demonstration.</p>
+                            <p class="text-sm text-slate-600 font-mono">Fig 1. Climbing Robot Prototype.</p>
                         </div>
                         <div class="snap-center shrink-0 w-80 md:w-[28rem] flex flex-col">
                             <div class="h-96 bg-canvas border border-slate-300 flex items-center justify-center mb-3">
-                                <video controls preload="metadata" playsinline class="w-full h-full object-contain" aria-label="VEX Robotics video 3">
+                                <video controls preload="metadata" playsinline class="w-full h-full object-contain" aria-label="VEX Robotics video 2">
                                     <source src="assets/Vex_3.mp4" type="video/mp4">
                                     Your browser does not support the video element.
                                 </video>
                             </div>
-                            <p class="text-sm text-slate-600 font-mono">Fig 3. VEX Robotics demonstration.</p>
+                            <p class="text-sm text-slate-600 font-mono">Fig 2. 225 Spin Up Skills run, World Top 5.</p>
                         </div>
                         <div class="snap-center shrink-0 w-80 md:w-[28rem] flex flex-col">
                             <div class="h-96 bg-canvas border border-slate-300 flex items-center justify-center mb-3">
-                                <video controls preload="metadata" playsinline class="w-full h-full object-contain" aria-label="VEX Robotics video 4">
+                                <video controls preload="metadata" playsinline class="w-full h-full object-contain" aria-label="VEX Robotics video 3">
                                     <source src="assets/Vex_4.mp4" type="video/mp4">
                                     Your browser does not support the video element.
                                 </video>
                             </div>
-                            <p class="text-sm text-slate-600 font-mono">Fig 4. VEX Robotics demonstration.</p>
+                            <p class="text-sm text-slate-600 font-mono">Fig 3. First 4-piston climb in taiwan</p>
                         </div>
                         <div class="snap-center shrink-0 w-80 md:w-[28rem] flex flex-col">
                             <div class="h-96 bg-canvas border border-slate-300 flex items-center justify-center mb-3">
-                                <video controls preload="metadata" playsinline class="w-full h-full object-contain" aria-label="VEX Robotics video 5">
+                                <video controls preload="metadata" playsinline class="w-full h-full object-contain" aria-label="VEX Robotics video 4">
                                     <source src="assets/Vex_5.mp4" type="video/mp4">
                                     Your browser does not support the video element.
                                 </video>
                             </div>
-                            <p class="text-sm text-slate-600 font-mono">Fig 5. VEX Robotics demonstration.</p>
+                            <p class="text-sm text-slate-600 font-mono">Fig 4. 185 Driver skills run, Robots build in a day.</p>
                         </div>
                         <div class="snap-center shrink-0 w-80 md:w-[28rem] flex flex-col">
                             <div class="h-96 bg-canvas border border-slate-300 flex items-center justify-center mb-3">
-                                <img src="assets/Vex_6.jpg" alt="VEX Robotics image 6" class="w-full h-full object-contain">
+                                <img src="assets/Vex_6.jpg" alt="VEX Robotics image 5" class="w-full h-full object-contain">
                             </div>
-                            <p class="text-sm text-slate-600 font-mono">Fig 6. VEX Robotics robot.</p>
+                            <p class="text-sm text-slate-600 font-mono">Fig 5. Spin Up World Championship Robot.</p>
                         </div>
                     </div>
                     <button type="button" onclick="scrollGallery('vex-gallery', 1)" aria-label="Show next VEX gallery item" class="absolute right-2 top-1/2 z-10 -translate-y-1/2 rounded-full border border-slate-300 bg-canvas/95 p-2 text-ink shadow-sm backdrop-blur-sm transition hover:border-accent hover:text-accent">
@@ -826,9 +830,9 @@
             <div class="mb-12">
                 <h3 class="text-xl font-bold text-ink mb-4 font-mono">&gt; Engineering Details</h3>
                 <ul class="list-disc list-outside ml-5 space-y-4 text-slate-700 text-lg">
-                    <li>Engineered a pioneering 3-level climbing robot for VEX High Stakes, utilizing piston, winch, and power take-off (PTO) mechanisms.</li>
-                    <li>Programmed autonomous navigation pipelines integrating odometry sensors and PID control loops for high-precision movement.</li>
-                    <li>Captured a top-10 global skills score and qualified for the VEX Spin Up World Championship.</li>
+                    <li>Led a 7-person mechanical, software, marketing, and drive team; qualified as one of five teams from Taiwan for the VEX Championship, earned a top-10 global Spin Up skills score, and won the Design Award at Taiwan's international Over Under competition.</li>
+                    <li>Engineered a three-level VEX High Stakes climbing robot by benchmarking FRC designs, modeling the mechanism in Fusion 360, and refining a prototype for vertical triangular poles using pistons, a winch, and a power take-off.</li>
+                    <li>Programmed autonomous routes with odometry and custom PID control loops for precise chassis movement.</li>
                 </ul>
             </div>
 
@@ -843,7 +847,7 @@
 
     <!-- Footer -->
     <footer class="py-8 text-center text-slate-500 font-mono text-xs border-t border-slate-300 bg-white">
-        <p>Someone with a spark for building</p>
+        <p><span class="font-semibold text-ink">Someone with a spark for building</span></p>
         <p class="mt-2">Phone: +1 (647) 471-3631 | UofT B.A.Sc. Mechanical Engineering</p>
     </footer>
 
