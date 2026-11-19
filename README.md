@@ -21,4 +21,3 @@ This website was custom-built from scratch without website builders (like Wix or
 
 ## Connect With Me
 - **LinkedIn:** [linkedin.com/in/tristenmech2t8](https://linkedin.com/in/tristenmech2t8)
-- **Email:** tristen.chen@mail.utoronto.ca
